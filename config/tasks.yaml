@@ -1,0 +1,25 @@
+# tasks.yaml
+tasks:
+  - description: "Research the topic: {topic}. Find key facts, timelines, and unique angles."
+    expected_output: "A compiled report of facts and sources."
+    agent: researcher
+
+  - description: "Using the research, write a narrative script with an engaging story arc."
+    expected_output: "A draft script in sections: intro, body, outro."
+    agent: storyteller
+
+  - description: "Optimize the script with a viral title, description, tags, and keyword integrations."
+    expected_output: "Updated script with SEO elements."
+    agent: seo_optimizer
+
+  - description: "Enhance the script with hooks, humor, questions, and CTAs for audience engagement."
+    expected_output: "Engagement-boosted script."
+    agent: engagement_booster
+
+  - description: "Add suggestions for visuals, transitions, and pacing to the script."
+    expected_output: "Script with embedded visual notes."
+    agent: visual_suggestor
+
+  - description: "Edit the script for clarity, flow, length (aim 10-15 min), and fact-check."
+    expected_output: "Final polished script ready for YouTube."
+    agent: editor
